@@ -3,6 +3,9 @@ import Image from "./image";
 import InfiniteScroll from "react-infinite-scroll-component";
 
 export default function Result(props) {
+  document.addEventListener("DOMContentLoaded", () => {
+    props.setIsLoading(true);
+  });
   const photoArray = props.res;
   return (
     <div className="result">
