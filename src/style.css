@@ -3,7 +3,6 @@
   margin: 0;
   box-sizing: border-box;
 }
-
 .header {
   background-color: black;
   color: white;
@@ -14,6 +13,8 @@
   font-size: x-large;
 }
 .searchBar {
+  position: sticky;
+  top: 0;
   background-color: black;
   color: white;
   display: flex;
@@ -47,7 +48,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
 }
-
 .ImageBox {
   display: inline;
 }
